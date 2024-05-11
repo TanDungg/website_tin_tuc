@@ -1,7 +1,9 @@
 function Footer() {
   return (
-    <footer className="main-footer">
-      <p>Thông tin bản quyền và liên hệ...</p>
+    <footer className="container-footer">
+      <p>
+        <i>- Bản quyền thuộc về TÔM ©2024 -</i>
+      </p>
     </footer>
   );
 }

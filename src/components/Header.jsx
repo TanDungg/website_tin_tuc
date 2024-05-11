@@ -21,6 +21,12 @@ function Header() {
             Giới thiệu
           </a>
         </ul>
+        <ul>
+          <a href="#">
+            <AppstoreOutlined />
+            Giới thiệu
+          </a>
+        </ul>
       </nav>
     </header>
   );

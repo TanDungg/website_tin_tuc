@@ -1,15 +1,20 @@
+import { Carousel, Image } from "antd";
+
 function Main() {
   return (
-    <main className="main-body">
-      <section>
-        <h2>Tiêu đề phần 1</h2>
-        <p>Nội dung phần 1...</p>
-      </section>
-      <section>
-        <h2>Tiêu đề phần 2</h2>
-        <p>Nội dung phần 2...</p>
-      </section>
-    </main>
+    <div className="container-body">
+      <Carousel autoplay>
+        <div>
+          <Image src="src/assets/images/LogoTinTuc.png" />
+        </div>
+        <div>
+          <Image src="src/assets/images/LogoTinTuc.png" />
+        </div>
+        <div>
+          <Image src="src/assets/images/LogoTinTuc.png" />
+        </div>
+      </Carousel>
+    </div>
   );
 }
 
